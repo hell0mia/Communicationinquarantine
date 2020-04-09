@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+/*html{
+  font-size: calc(30px + (60 - 30) * ((100vw - 400px) / (800 - 400)));
+}*/
+
+h1 {
+  /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-size: calc(30px + (54 - 30) * ((100vw - 400px) / (800 - 400)));
+  font-family: 'publicobanner-light', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  color: #ffff00;
+  text-align: left;
+  padding: 40px;
+}
+
+a:hover {
+  color: #0000ff;
+}
+
+p,a {
+  /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-size: calc(16px + (32 - 16) * ((100vw - 400px) / (800 - 400)));
+  font-family: 'suisse-int-medium', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  color: #ffff00;
+  text-align: left;
+  padding: 40px;
+}
+
+
+
+body{
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: 'suisse-int-medium', sans-serif;
+  font-size: 200px;
+}
+
+img {max-width:100%};
